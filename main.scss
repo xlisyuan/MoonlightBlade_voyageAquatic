@@ -1,0 +1,67 @@
+* {
+    //font-family:
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body {
+    padding: 50px;
+    background-color: #333;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #ccc;
+    margin: 20px 0px;
+}
+
+#sortBtn {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #ccc;
+    width: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 27px;
+}
+
+#sortBtn:hover {
+    background-color: #222;
+}
+
+#currentText {
+    position: absolute;
+    top: -25px;
+    color: #f00;
+    transform: translate(-45%, 0);
+}
+
+#current {
+    position: absolute;
+    background-color: #f00;
+    width: 5px;
+    height: 100%;
+    top: -5px;
+}
+
+.timer {
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    width: 100%;
+    padding: 1px 5px;
+}
+
+.aquaProduct {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px 0px;
+}
